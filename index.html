@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      Swiggy-Order food online from India's best food dilivery services
+    </title>
+    <link rel="icon" type="logo.png" href="icon.png" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        position: relative;
+        background-image: url(1.webp);
+        background-size: 50%;
+        /* background-position-x: 170px;
+        background-position-y: 20px; */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 100%;
+        width: 100%;
+      }
+      .container {
+        background-color: white;
+        width: 54%;
+        height: 632px;
+        position: relative;
+      }
+      p {
+        color: white;
+        padding: 20px;
+      }
+      .header {
+        display: flex;
+        padding: 50px;
+      }
+      .button {
+        width: 50%;
+        position: relative;
+        left: 25%;
+        padding: 1rem;
+      }
+      button {
+        width: 40%;
+        height: 45px;
+      }
+      h1 {
+        color: black;
+        position: relative;
+        top: 50px;
+        right: -2rem;
+        font-size: 2.5rem;
+        font-weight: bolder;
+      }
+      #p1 {
+        color: black;
+        position: relative;
+        top: 42px;
+        right: -0.6rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.05rem;
+      }
+
+      form.example input[type="text"] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid #fc8019;
+        box-shadow: #fc8019;
+        float: left;
+        width: 83%;
+        background: transparent;
+        position: relative;
+        left: 2rem;
+        height: 4rem;
+      }
+
+      form.example button {
+        float: left;
+        width: 17%;
+        padding: 10px;
+        background: #fc8019;
+        color: white;
+        font-size: 17px;
+        border: 2px solid #fc8019;
+        right: 3rem;
+        cursor: pointer;
+        position: relative;
+        height: 4rem;
+      }
+      form {
+        width: 95%;
+      }
+      h4 {
+        font-size: 1rem;
+      }
+
+      form.example button:hover {
+        background: #f49911;
+      }
+
+      ::placeholder {
+        letter-spacing: 1px;
+        font-weight: bold;
+      }
+
+      #img {
+        max-width: 100%;
+        height: auto;
+        left: 43.8rem;
+        bottom: 27rem;
+        position: relative;
+      }
+
+      #icon {
+        width: 5rem;
+        height: 4.5rem;
+        right: 2rem;
+        position: relative;
+      }
+      #h12 {
+        right: 1.8rem;
+        top: 0.6rem;
+        color: #fc8019;
+      }
+
+      #btn1 {
+        background-color: white;
+        border: none;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+
+      #btn1:hover {
+        color: #fc8019;
+        cursor: pointer;
+      }
+      #btn2:hover {
+        cursor: pointer;
+      }
+
+      #btn2 {
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      /*
+      #changeText {
+        animation: changeText ease 0.5s forwards 1.2s;
+      }
+
+      @keyframes changeText {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(-40px);
+          opacity: 1;
+        } */
+
+      h3 {
+        position: relative;
+        left: 2rem;
+        top: 1rem;
+        font-size: 1rem;
+        color: grey;
+      }
+
+      .footer{
+        position: relative;
+        background-color: rgb(41, 18, 18);
+        height: 25rem;
+      }
+      .imgOrder{
+        width: 8rem;
+        
+      }
+      #f1{
+        position: relative;
+        width: 13rem;
+        left: 7rem;
+        top: 0rem;
+
+      }
+      
+      #f2{
+        position: relative;
+        width: 13rem;
+        bottom: 22.4rem;
+        left: 35rem;
+      }
+
+      #f3{
+        position: relative;
+        width: 11rem;
+        bottom: 42.4rem;
+        left: 59.5rem;
+      }
+
+      .h3{
+        position: relative;
+        left: -1rem;
+        font-size: 1.07rem;
+        color: rgb(244, 244, 244);
+      }
+      .pOrder{
+        position: relative;
+        right: 2.2rem;
+        color: rgb(153, 153, 153);
+        text-align: left;
+        width: 16rem;
+        font-size: 1rem;
+        letter-spacing: 0.01rem;
+        word-spacing: 0.1rem;
+      }
+
+      .container3{
+        height: 38rem;
+        background-color: white;
+      }
+
+      #h2{
+        font-size: 3rem;
+        text-align: left;
+        width: 23rem;
+        top: 10rem;
+        left: 2rem;
+        position: relative;
+      }
+      #pFooter{
+        color: black;
+        position: relative;
+        top: 10rem;
+        left: 0.8rem;
+        font-size: 1.5rem;
+        text-align: left;
+        width: 33rem;
+        color: grey;
+      }
+      #google_play{
+        position: relative;
+        width: 13rem;
+        bottom: 12rem;
+        left: 2rem;
+      }
+
+      #ios{
+        position: relative;
+        width: 13rem;
+        bottom: 12rem;
+        left: 3rem;
+      }
+      #down{
+        position: relative;
+        width: 23rem;
+        bottom:12.88rem;
+        left: 13rem;
+      }
+
+      #up{
+        position: relative;
+        width: 23rem;
+        bottom:4.16rem;
+        left: 13rem;
+      }
+      .container4{
+        height: 12rem;
+        background-color: black;
+      }
+
+     
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="icon.png" alt="" id="icon" />
+        <h1 id="h12">Swiggy</h1>
+        <div class="button">
+          <button id="btn1">Login</button>
+          <button id="btn2">Sign up</button>
+        </div>
+      </div>
+      <h1 id="changeText">HUNGRY?</h1>
+      <p id="p1">Order food from favourite restaurants near you.</p>
+      <br /><br /><br /><br />
+      <form class="example">
+        <input
+          type="text"
+          placeholder="Enter your delivery location"
+          name="search"
+        />
+        <button type="submit"><h4>FIND FOOD</h4></button>
+      </form>
+      
+      <h3>POPULAR CITIES IN INDIA</h3>
+      <br>
+      <h3 id="h3">
+        Ahmedabad Bangalore Chennai Delhi Gurgaon Hyderabad Kolkata Mumbai Pune
+        & more.
+      </h3>
+    </div>
+    
+    <div class="footer">
+        <div id="f1">
+          <img src="2.webp" alt="" class="imgOrder">
+          <h3 class="h3">No Minimum Order</h3>
+          <p class="pOrder">Order in for yourself or for the group, with no restrictions on order value
+          </p>
+        </div>
+        <div id="f2">
+          <img src="3.webp" alt="" class="imgOrder">
+          <h3 class="h3">Live Order Tracking</h3>
+          <p class="pOrder">Know where your order is at all times, from the restaurant to your doorstep</p>
+        </div>
+        <div id="f3">
+          <img src="4.webp" alt="" class="imgOrder">
+          <h3 class="h3">Lightning-Fast Delivery
+          </h3>
+          <p class="pOrder">Experience Swiggy's superfast delivery for food delivered fresh & on time
+          </p>
+        </div>
+    </div>
+    <div class="container3">
+      <h2 id="h2">Restaurants in your pocket
+      </h2>
+      <p id="pFooter">Order from your favorite restaurants & track on the go, with the all-new Swiggy app.
+      </p>
+      <a href="https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en_IN&gl=US" target="_blank"><img src="google_play.webp" alt="" id="google_play"></a>
+      <a href="https://apps.apple.com/in/app/swiggy-food-delivery-more/id989540920" target="_blank"><img src="ios.webp" alt="" id="ios"></a>
+      <img src="down.webp" alt="" id="down">
+      <img src="up.webp" alt="" id="up">
+    </div>
+    <div class="container4">
+
+    </div>
+    
+    <script>
+      var text = [
+        "Late night at office?",
+        "Cooking gone run?",
+        "Game night?",
+        "Unexpected guests?",
+        "Hungry?",
+        "Movie Marathon?",
+      ];
+      var counter = 0;
+      var elem = document.getElementById("changeText");
+      var inst = setInterval(change, 2000);
+
+      function change() {
+        elem.innerHTML = text[counter];
+        counter++;
+        if (counter >= text.length) {
+          counter = 0;
+          //   clearInterval(inst);
+        }
+      }
+    </script>
+  </body>
+</html>
